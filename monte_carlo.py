@@ -25,7 +25,7 @@ More references:
 Black-Scholes-Merton SDE (geometric Brownian Motion) 
 dSt = r*St*dt + sigma*St*dZt 
 
-(The equation presented here is the Black-Scholes-Merton differential equation)
+The equation presented here is the Black-Scholes-Merton differential equation
 St = St - dt exp((r - sigma**2/2) dt + dt*sqrt(dt*Z))
 
 ***More information here***
@@ -114,6 +114,6 @@ S = MonteCarlo(M, I)
 print("S = ", S.get_s())
 print("Mean End-Of-Period Value: ", S.mean_end())
 print("Expected End-Of-Period Value: ", S.end_value()) 
-print("C (estimator) for the put option with strike-price of K = 40: ",S.estimator(K = 40))
+print("C0 (estimator) for the put option with strike-price of K = 40: ",S.estimator(K = 40))
 #Calls the plotter method - plots the end of period values
 S.plotter()
