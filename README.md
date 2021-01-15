@@ -4,7 +4,8 @@
 
 **Monte Carlo Simulation - Black-Scholes-Merton Put Option (European Option)**        
 
-![image](MonteCarlo/monte_carlo_plot.png)   
+![image](MonteCarlo/monte_carlo_plot.png)  
+
 
 **Compound Interest Formula - Code in C++**    
 
@@ -25,7 +26,7 @@ r = rate of growth
 t = time period    
 
 ```python
-#compile
+#compile with clang++ or g++
 g++ compound_interest.cpp -o ci
 
 #run 
@@ -37,7 +38,7 @@ g++ compound_interest.cpp -o ci
 Uses pointers and arrays.  
 
 ```python 
-#compile
+#compile with clang or gcc
 gcc compound_interest.c -lm 
 
 #run 
