@@ -6,9 +6,9 @@
 
 ![image](MonteCarlo/monte_carlo_plot.png)   
 
-**Compound Interest Formula - C++**  
+**Compound Interest Formula - Code in C++**    
 
-A = Pe<sup>rt</sup>  
+### A = Pe<sup>rt</sup>  
 
 Where:   
 A = end amount    
