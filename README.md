@@ -33,7 +33,7 @@ g++ compound_interest.cpp -o ci
 ./ci 
 ```  
 
-**Compound Interest Formula- Code in C**    
+**Compound Interest Formula- Code in C**   
 
 Uses pointers and arrays.  
 
@@ -43,9 +43,10 @@ gcc compound_interest.c -lm
 
 #run 
 ./a.out
-```
-
+```  
 **Citation:**   
 Python for Finance - Yves Hilpisch - [O'reilly Books]( https://learning.oreilly.com/library/view/python-for-finance/9781491945360/)  
 Black-Scholes-Merton - [UCD](https://maths.ucd.ie/courses/mst3024/section4-3.pdf)  
-Euler Methods - [MIT](https://web.mit.edu/10.001/Web/Course_Notes/Differential_Equations_Notes/node3.html)  
+Euler Methods - [MIT](https://web.mit.edu/10.001/Web/Course_Notes/Differential_Equations_Notes/node3.html)    
+The C Programming Language Dennis Ritchie and Brian Kernighan -Pointers and Arrays (Chapter 5)[CS Princeton University](https://www.cs.princeton.edu/~bwk/cbook.html)   
+
