@@ -8,7 +8,7 @@
 
 **Compound Interest Formula - C++**  
 
-A = P$e^{r\t}  
+A = P$e^{r\t}$  
 
 Where:   
 A = end amount    
