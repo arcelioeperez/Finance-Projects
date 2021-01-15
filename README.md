@@ -32,7 +32,7 @@ g++ compound_interest.cpp -o ci
 ./ci 
 ```  
 
-**C file**  
+**Compound Interest - C**    
 
 Uses pointers and arrays.  
 
