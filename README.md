@@ -8,7 +8,7 @@
 
 **Compound Interest Formula - Code in C++**    
 
-### A = Pe<sup>rt</sup>  
+> A = Pe<sup>rt</sup>  
 
 This program uses references and vectors instead of pointers and arrays --
 initially it was done this way (using pointers and arrays), but I decided to change it to make it more
@@ -17,7 +17,7 @@ compatible with C++.
 Using arrays and pointers is allowed in C++, but it is more of
 a C implementation.  
 
-**Where:**     
+Variables:     
 A = end amount    
 P = principal amount    
 e = Euler constant   
@@ -32,7 +32,7 @@ g++ compound_interest.cpp -o ci
 ./ci 
 ```  
 
-**Compound Interest - C**    
+**Compound Interest Formula- Code in C**    
 
 Uses pointers and arrays.  
 
