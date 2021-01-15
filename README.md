@@ -4,7 +4,19 @@
 
 **Monte Carlo Simulation - Black-Scholes-Merton Put Option (European Option)**        
 
-![image](MonteCarlo/monte_carlo_plot.png)    
+![image](MonteCarlo/monte_carlo_plot.png)   
+
+**Compound Interest Formula - C++**  
+
+A = P$e^{r\t}  
+
+Where:   
+A = end amount    
+P = principal amount    
+e = Euler constant   
+r = rate of growth   
+t = time period    
+
 
 **Citation:**   
 Python for Finance - Yves Hilpisch - [O'reilly Books]( https://learning.oreilly.com/library/view/python-for-finance/9781491945360/)  
