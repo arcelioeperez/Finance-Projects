@@ -71,10 +71,10 @@ int main() {
   double A [] = {22.75, 23.99, 244.00, 3434.00}; 
   double P [] = {13.8, 334.55, 345.44, 42.00}; 
   //double rate [] = {0.05, 0.03, 0.3, 0.12}; 
-  double time [] = {10, 22, 4, 5}; 
+  double time_period [] = {10, 22, 4, 5}; 
   
   int len = sizeof(A)/sizeof(A[0]);
-  r(A, P, time, len); 
+  r(A, P, time_period, len); 
 
   return 0; 
 }
