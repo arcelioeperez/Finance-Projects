@@ -17,14 +17,14 @@ compatible with C++.
 Using arrays and pointers is allowed in C++, but it is more of
 a C implementation.  
 
-Where:   
+**Where:**     
 A = end amount    
 P = principal amount    
 e = Euler constant   
 r = rate of growth   
 t = time period    
 
-```C
+```python
 #compile
 g++ compound_interest.cpp -o ci
 
