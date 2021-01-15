@@ -8,7 +8,7 @@
  * e = euler constant -- C++ std::exp()
  *
  *
- *
+ *This program uses pointers -- another program will be done using references i.e. & 
  */
 
 #include <iostream> 
