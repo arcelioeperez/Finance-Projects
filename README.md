@@ -32,6 +32,18 @@ g++ compound_interest.cpp -o ci
 ./ci 
 ```  
 
+**C file**  
+
+Uses pointers and arrays.  
+
+```python 
+#compile
+gcc compound_interest.c -lm 
+
+#run 
+./a.out
+```
+
 **Citation:**   
 Python for Finance - Yves Hilpisch - [O'reilly Books]( https://learning.oreilly.com/library/view/python-for-finance/9781491945360/)  
 Black-Scholes-Merton - [UCD](https://maths.ucd.ie/courses/mst3024/section4-3.pdf)  
