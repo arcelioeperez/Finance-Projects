@@ -10,6 +10,13 @@
 
 ### A = Pe<sup>rt</sup>  
 
+This program uses references and vectors instead of pointers and arrays --
+initially it was done this way (using pointers and arrays), but I decided to change it to make it more
+compatible with C++.  
+
+Using arrays and pointers is allowed in C++, but it is more of
+a C implementation.  
+
 Where:   
 A = end amount    
 P = principal amount    
@@ -17,6 +24,13 @@ e = Euler constant
 r = rate of growth   
 t = time period    
 
+```C
+#compile
+g++ compound_interest.cpp -o ci
+
+#run 
+./ci 
+```  
 
 **Citation:**   
 Python for Finance - Yves Hilpisch - [O'reilly Books]( https://learning.oreilly.com/library/view/python-for-finance/9781491945360/)  
