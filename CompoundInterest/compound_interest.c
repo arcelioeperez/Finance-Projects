@@ -5,6 +5,7 @@
  *gcc compound_interest.c -lm 
  *exp() - euler constant
  *log() - natural logarithm -- to calculate r and t 
+ *fabs() - absolute value -- double data type
  */
 
 #include <stdio.h> 
