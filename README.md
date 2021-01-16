@@ -37,6 +37,9 @@ g++ compound_interest.cpp -o ci
 
 Uses pointers and arrays.  
 
+Will try to add a struct that contains all the variables needed for the
+formula.  
+
 ```python 
 #compile with clang or gcc
 gcc compound_interest.c -lm 
