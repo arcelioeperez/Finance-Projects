@@ -1,4 +1,4 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ![Lines of code](https://img.shields.io/tokei/lines/github/arcelioeperez/Finance-Projects)  
 
 # Finance Projects    
 
