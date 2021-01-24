@@ -55,5 +55,5 @@ Black-Scholes-Merton - [UCD](https://maths.ucd.ie/courses/mst3024/section4-3.pdf
 Euler Methods - [MIT](https://web.mit.edu/10.001/Web/Course_Notes/Differential_Equations_Notes/node3.html)     
 More Information on Growth Formula - [Continuous Growth and Decay](http://www.math.kent.edu/~mathweb/ebooks/10024/ch2_4.htm)  
 Applied Finance Example - [Certificates of Deposit](http://www.terpconnect.umd.edu/~ykovache/Teaching/Math120S20/Lecture%205.2.pdf)  
-The C Programming Language Dennis Ritchie and Brian Kernighan - Pointers and Arrays (Chapter 5) - [CS Princeton University](https://www.cs.princeton.edu/~bwk/cbook.html)   
-
+The C Programming Language Dennis Ritchie and Brian Kernighan - Pointers and Arrays (Chapter 5) - [CS Princeton University](https://www.cs.princeton.edu/~bwk/cbook.html)  
+e Constant Image - [CodeCogs](https://codecogs.com/latex/eqneditor.php)     
