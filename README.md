@@ -14,7 +14,7 @@
 The `e` constant is defined as:  
 > <img src="https://latex.codecogs.com/gif.latex?e&space;=&space;\lim&space;_{n\to&space;\infty&space;}\left(1&plus;{\frac&space;{1}{n}}\right)^{n}" title="e = \lim _{n\to \infty }\left(1+{\frac {1}{n}}\right)^{n}" />  
 
-To find `r` or `t` you have to use the natural logarithm -- `(C++: std::log())`.  
+To find **r** or **t** you have to use the natural logarithm -- `std::log()`.  
 
 This program uses references and vectors instead of pointers and arrays --
 initially it was done this way (using pointers and arrays), but I decided to change it to make it more
