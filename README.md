@@ -11,7 +11,10 @@
 
 > A = Pe<sup>rt</sup>  
 
+The `e` constant is defined as:  
 > <img src="https://latex.codecogs.com/gif.latex?e&space;=&space;\lim&space;_{n\to&space;\infty&space;}\left(1&plus;{\frac&space;{1}{n}}\right)^{n}" title="e = \lim _{n\to \infty }\left(1+{\frac {1}{n}}\right)^{n}" />  
+
+To find `r` or `t` you have to use the natural logarithm -- `(C++: std::log())`.  
 
 This program uses references and vectors instead of pointers and arrays --
 initially it was done this way (using pointers and arrays), but I decided to change it to make it more
@@ -56,4 +59,4 @@ Euler Methods - [MIT](https://web.mit.edu/10.001/Web/Course_Notes/Differential_E
 More Information on Growth Formula - [Continuous Growth and Decay](http://www.math.kent.edu/~mathweb/ebooks/10024/ch2_4.htm)  
 Applied Finance Example - [Certificates of Deposit](http://www.terpconnect.umd.edu/~ykovache/Teaching/Math120S20/Lecture%205.2.pdf)  
 The C Programming Language Dennis Ritchie and Brian Kernighan - Pointers and Arrays (Chapter 5) - [CS Princeton University](https://www.cs.princeton.edu/~bwk/cbook.html)  
-e Constant Image - [CodeCogs](https://codecogs.com/latex/eqneditor.php)     
+Euler Constant Image - [CodeCogs](https://codecogs.com/latex/eqneditor.php)     
