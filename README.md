@@ -51,6 +51,7 @@ gcc compound_interest.c -lm
 
 #run 
 ./a.out
+``` 
 
 **Shorting the Market**  
 
@@ -62,7 +63,7 @@ Two methods:
 
 Results are a dataframe with the different price movements  
 
-```  
+ 
 **Citation:**   
 Python for Finance, Yves Hilpisch - [O'reilly Books]( https://learning.oreilly.com/library/view/python-for-finance/9781491945360/)  
 Black-Scholes-Merton - [UCD](https://maths.ucd.ie/courses/mst3024/section4-3.pdf)  
