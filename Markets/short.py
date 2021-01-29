@@ -4,8 +4,8 @@ Short Selling Script
 Price of the underlying stock goes up: 
 - Margin call 
 
-Price goes down: **to do** 
-- Money to the seller's account
+Price goes down:  
+- Money to the short seller's account
 """
 
 import pandas as pd
@@ -26,8 +26,6 @@ class Short:
 
         print(ft) 
     def price_increase(self, end, steps=5):
-        self.end = end 
-        self.steps = steps
         principal = self.shares * self.price
         margin_amount = 0.5 * principal 
         initial_req = margin_amount + principal 
@@ -37,7 +35,7 @@ class Short:
      
         data = pd.DataFrame([]) 
 
-        for i in range(self.price + self.steps, self.end, self.steps): 
+        for i in range(self.price + steps, end, steps): 
             short_value = self.shares * i 
             margin_req = short_value * self.mfee
             total_req = short_value + margin_req
@@ -56,9 +54,32 @@ class Short:
                 [margin_req], "Total Req": [total_req], "Margin Call":
                 [margin_call]}), ignore_index = True ) 
 
-        print(data) 
+        print(data)
+
+    def price_decrease(self, end, steps= 5):
+        principal = self.shares * self.price 
+        margin_req = 0.5 * principal 
+        initial_req = principal + margin_req
+          
+        data = pd.DataFrame([])
+        for i in range(self.price - steps, end, -steps): 
+            short_value = self.shares * i 
+            margin_req = short_value * 0.5
+            total_req = short_value + margin_req
+            mar_released = initial_req - total_req
+
+            data = data.append(pd.DataFrame({"Shares": [self.shares],
+                "Share Price": [i], 
+            "Short Sale Value": [short_value], "Additional Margin":
+            [margin_req], "Total Req": [total_req], "Margin Released":
+            [mar_released]}), ignore_index = True)
+
+        print(data)
+
+
+
 # Test
 test = Short(shares = 1000, price = 50,  mfee = 0.3) 
 test.first_transaction()
 test.price_increase(end = 80, steps = 5)
-     
+test.price_decrease(end = 25, steps = 5)
