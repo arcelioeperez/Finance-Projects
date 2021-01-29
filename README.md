@@ -51,6 +51,17 @@ gcc compound_interest.c -lm
 
 #run 
 ./a.out
+
+**Shorting the Market**  
+
+Python script that shows what happens when short selling  
+
+Two methods:  
+- Price of the stock increases  
+- Price of the stock decreases  
+
+Results are a dataframe with the different price movements  
+
 ```  
 **Citation:**   
 Python for Finance, Yves Hilpisch - [O'reilly Books]( https://learning.oreilly.com/library/view/python-for-finance/9781491945360/)  
