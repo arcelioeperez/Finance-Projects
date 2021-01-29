@@ -63,6 +63,8 @@ Two methods:
 
 Results are a dataframe with the different price movements  
 
+**Results image:**     
+![image](/Markets/short.png)  
  
 **Citation:**   
 Python for Finance, Yves Hilpisch - [O'reilly Books]( https://learning.oreilly.com/library/view/python-for-finance/9781491945360/)  
