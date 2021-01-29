@@ -15,6 +15,16 @@ class Short:
         self.shares = shares
         self.price = price
         self.mfee = mfee 
+    def first_transaction(self): 
+        principal = self.shares * self.price
+        margin_amount = 0.5 * principal 
+        total_req = principal + margin_amount 
+        ft = pd.DataFrame({"Shares": [self.shares],
+                    "Share Price": [self.price], 
+                    "Short Value": [principal], "Initial Margin":
+                    [margin_amount], "Total Margin": [total_req]})
+
+        print(ft) 
     def price_increase(self, end, steps=5):
         self.end = end 
         self.steps = steps
@@ -49,5 +59,6 @@ class Short:
         print(data) 
 # Test
 test = Short(shares = 1000, price = 50,  mfee = 0.3) 
-ans = test.price_increase(end = 80, steps = 5)
-print(ans)     
+test.first_transaction()
+test.price_increase(end = 80, steps = 5)
+     
