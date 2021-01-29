@@ -27,7 +27,7 @@ class Short:
      
         data = pd.DataFrame([]) 
 
-        for i in range(self.price, self.end, self.steps): 
+        for i in range(self.price + self.steps, self.end, self.steps): 
             short_value = self.shares * i 
             margin_req = short_value * self.mfee
             total_req = short_value + margin_req
