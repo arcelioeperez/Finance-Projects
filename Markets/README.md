@@ -18,7 +18,7 @@ Put Options:
 Finance, Springer.  
 
 Profit Formula  
-> Put(S, T) = max(0, (E + Premium Paid) - S)  
+> Put(S, T) = max(0, (E - Premium Paid) - S)  
 
 More information here:  
 [Options](https://www.investopedia.com/options-basics-tutorial-4583012)  
