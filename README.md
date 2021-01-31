@@ -7,9 +7,21 @@
 ![image](MonteCarlo/monte_carlo_plot.png)  
 
 
-**Compound Interest Formula - Code in C++**    
+**Continuous Compounding Interest Formula - Code in C++**    
 
-> A = Pe<sup>rt</sup>  
+> A = Pe<sup>r\*t</sup>    
+
+Daily Compounding:    
+> A = P(1 + r/365)<sup>365\*t</sup>  
+
+Monthly Compounding:    
+> A = P(1 + r/12)<sup>12\*t</sup>  
+
+Quaterly Compounding:    
+> A = P(1 + r/4)<sup>4\*t</sup>  
+
+Yearly Compounding:  
+> A = P(1 + r)<sup>t</sup>  
 
 The `e` constant is defined as:  
 > <img src="https://latex.codecogs.com/gif.latex?e&space;=&space;\lim&space;_{n\to&space;\infty&space;}\left(1&plus;{\frac&space;{1}{n}}\right)^{n}" title="e = \lim _{n\to \infty }\left(1+{\frac {1}{n}}\right)^{n}" />  
