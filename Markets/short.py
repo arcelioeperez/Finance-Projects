@@ -1,4 +1,26 @@
 """
+MIT License
+
+Copyright (c) 2021 Arcelio E. Perez Garcia
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 Short Selling Script
 
 Price of the underlying stock goes up: 
@@ -6,6 +28,16 @@ Price of the underlying stock goes up:
 
 Price goes down:  
 - Money to the short seller's account
+
+
+first_transaction: 
+prints out the first transaction of the short position
+
+price_increase: 
+prints out the all the margin values and the margin calls for the short seller
+
+price_decrease: 
+prints out the money going to the short seller's account
 """
 
 import pandas as pd
@@ -83,3 +115,16 @@ test = Short(shares = 1000, price = 50,  mfee = 0.3)
 test.first_transaction()
 test.price_increase(end = 80, steps = 5)
 test.price_decrease(end = 25, steps = 5)
+
+
+print("###################################")
+
+# Test 2
+test2 = Short(shares = 1000, price = 25, mfee = 0.3) 
+test2.first_transaction() 
+
+test2.price_increase(end = 50, steps = 10)
+test2.price_decrease(end = 5, steps = 5) 
+
+print("####################################")
+print("END OF SCRIPT")
