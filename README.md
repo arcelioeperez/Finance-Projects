@@ -24,7 +24,7 @@ Yearly Compounding:
 > A = P(1 + r)<sup>t</sup>  
 
 The `e` constant is defined as:  
-> <img src="https://latex.codecogs.com/gif.latex?e&space;=&space;\lim&space;_{n\to&space;\infty&space;}\left(1&plus;{\frac&space;{1}{n}}\right)^{n}" title="e = \lim _{n\to \infty }\left(1+{\frac {1}{n}}\right)^{n}" />  
+> <img src="https://latex.codecogs.com/gif.latex?e&space;=&space;\lim&space;_{n\to&space;\infty&space;}\left(1&plus;{\frac&space;{1}{n}}\right)^{n}"  title="e = \lim _{n\to \infty }\left(1+{\frac {1}{n}}\right)^{n}" media="(prefers-color-scheme: dark)" />  
 
 To find **r** or **t** you have to use the natural logarithm -- `std::log()`.  
 
