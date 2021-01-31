@@ -24,7 +24,7 @@ Yearly Compounding:
 > A = P(1 + r)<sup>t</sup>  
 
 The `e` constant is defined as:  
-> [e - Mathematical Constant](https://en.wikipedia.org/wiki/E_(mathematical_constant)  
+> [e - Mathematical Constant](https://en.wikipedia.org/wiki/E_(mathematical_constant))  
 
 To find **r** or **t** you have to use the natural logarithm -- `std::log()`.  
 
