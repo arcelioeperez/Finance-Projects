@@ -75,6 +75,9 @@ Two methods:
 
 Results are a dataframe with the different price movements  
 
+**Results image:**     
+![image](/Markets/short.png) 
+
 **Options Analysis**   
 Languages:  
 - Python  
@@ -82,10 +85,7 @@ Languages:
   
 P/L -- profit/loss analysis    
 Greeks (Delta, Theta, Gamma, Vega, Rho) -- using the Black-Scholes formula and solving the derivative  
-
-**Results image:**     
-![image](/Markets/short.png)  
- 
+  
 **Citation:**   
 Python for Finance, Yves Hilpisch - [O'reilly Books]( https://learning.oreilly.com/library/view/python-for-finance/9781491945360/)  
 Black-Scholes-Merton - [UCD](https://maths.ucd.ie/courses/mst3024/section4-3.pdf)  
