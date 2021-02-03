@@ -7,6 +7,8 @@ Options are made up of:
 - Intrinsic Value 
 - Extrinsic Value 
 
+Add the shebang (first line): 
+!/usr/bin/env python3
 Make it executable: 
 chmod +x options.py 
 Run it with: 
