@@ -2,7 +2,7 @@
 
 Variables:  
 - S - current price  
-- E - strike price (future price)  
+- K - strike price (future price)  
 - T - time 
 
 Call Options:  
@@ -10,7 +10,7 @@ Call Options:
 "The purchaser has the legal rigtht to decide what will be done" - Donald G. Sarri, Mathematics of Finance, Springer.   
 
 Profit Formula  
-> Call(S, T) = max(0, S - (E + Premium Paid))    
+> Call(S, T) = max(0, S - (K + Premium Paid))    
 
 Put Options:  
 
@@ -18,7 +18,7 @@ Put Options:
 Finance, Springer.  
 
 Profit Formula  
-> Put(S, T) = max(0, (E - Premium Paid) - S)  
+> Put(S, T) = max(0, (K - Premium Paid) - S)  
 
 More information here:  
 [Options](https://www.investopedia.com/options-basics-tutorial-4583012)  
