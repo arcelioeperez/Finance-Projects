@@ -27,7 +27,7 @@ func main() {
 
     cans := calls(Sc, Ec, cpricec)
 
-	fmt.Printf("Call Profitability: %.2f ", cans)
+    fmt.Printf("Call Profitability: %.2f ", cans)
 	fmt.Printf("\n")
 
 	var S float64 = 90.00
