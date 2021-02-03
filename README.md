@@ -75,6 +75,14 @@ Two methods:
 
 Results are a dataframe with the different price movements  
 
+**Options Analysis**   
+Languages:  
+- Python  
+- Go  
+  
+P/L -- profit/loss analysis    
+Greeks (Delta, Theta, Gamma, Vega, Rho) -- using the Black-Scholes formula and solving the derivative  
+
 **Results image:**     
 ![image](/Markets/short.png)  
  
