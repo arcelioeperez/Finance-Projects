@@ -23,6 +23,13 @@ Quaterly Compounding:
 Yearly Compounding:  
 > A = P(1 + r)<sup>t</sup>  
 
+Where:       
+A = end amount    
+P = principal amount    
+e = Euler constant   
+r = rate of growth   
+t = time period  
+
 The `e` constant is defined as:  
 > [e - Mathematical Constant](https://en.wikipedia.org/wiki/E_(mathematical_constant))  
 
@@ -33,14 +40,7 @@ initially it was done this way (using pointers and arrays), but I decided to cha
 compatible with C++.  
 
 Using arrays and pointers is allowed in C++, but it is more of
-a C implementation.  
-
-Variables:     
-A = end amount    
-P = principal amount    
-e = Euler constant   
-r = rate of growth   
-t = time period    
+a C implementation.    
 
 ```python
 #compile with clang++ or g++
