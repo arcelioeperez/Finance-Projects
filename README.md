@@ -70,8 +70,8 @@ gcc compound_interest.c -lm
 Python script that shows what happens when short selling  
 
 Two methods:  
-- Price of the stock increases  
-- Price of the stock decreases  
+- Price if the stock increases  
+- Price if the stock decreases  
 
 Results are a dataframe with the different price movements  
 
