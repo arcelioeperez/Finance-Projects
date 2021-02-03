@@ -84,7 +84,10 @@ Languages:
 - Go  
   
 P/L -- profit/loss analysis    
-Greeks (Delta, Theta, Gamma, Vega, Rho) -- using the Black-Scholes formula and solving the derivation   
+Greeks (Delta, Theta, Gamma, Vega, Rho) -- using the Black-Scholes formula and solving the derivation  
+```python
+d1 = (np.log(S / K) + (r + 0.5 * sigma ** 2) * T) / (sigma * np.sqrt(T))
+```
 
 **Citation:**   
 Python for Finance, Yves Hilpisch - [O'reilly Books]( https://learning.oreilly.com/library/view/python-for-finance/9781491945360/)  
