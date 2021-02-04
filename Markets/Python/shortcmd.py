@@ -21,7 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Short Selling Script -- results csv files with dataframes
+Short Selling Script -- results in the command line
 
 Price of the underlying stock goes up: 
 - Margin call 
@@ -56,7 +56,7 @@ class Short:
                     "Short Value": [principal], "Initial Margin":
                     [margin_amount], "Total Margin": [total_req]})
 
-        ft.to_csv("first_transaction.csv", index=False)
+        print(ft)
     def price_increase(self, end, steps=5):
         principal = self.shares * self.price
         margin_amount = 0.5 * principal 
@@ -86,7 +86,7 @@ class Short:
                 [margin_req], "Total Req": [total_req], "Margin Call":
                 [margin_call]}), ignore_index = True ) 
 
-        data.to_csv("./price_increase.csv", index=False)
+        print(data)
 
     def price_decrease(self, end, steps= 5):
         principal = self.shares * self.price 
@@ -106,7 +106,7 @@ class Short:
             [margin_req], "Total Req": [total_req], "Margin Released":
             [mar_released]}), ignore_index = True)
 
-        data.to_csv("./price_decrease.csv", index=False)
+        print(data)
 
 
 
