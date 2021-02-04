@@ -82,8 +82,12 @@ func main() {
 
 	fmt.Println("First Transaction: ", ans)
 	*/
+
+	//Price Increase
 	stock := Stock{50.00, 1000.00, 0.3, 80.00, 5.00}
 
 	price_increase(stock.end, stock.steps, stock.mfee, stock.shares, stock.price)
+
+	//Price Decrease -- to do ...
 
 }
