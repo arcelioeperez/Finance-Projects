@@ -37,7 +37,7 @@ Calculation:
 **Some Indexes use a divisor that maintains continuity in case of stock splits or
 changes in the companies in the Index**  
 
-[Price-Weighted Indexes](https://www.investopedia.com/terms/p/priceweightedindex.asp)  
+Reference: [Price-Weighted Indexes](https://www.investopedia.com/terms/p/priceweightedindex.asp)  
 
 Capitalization Weighted Index    
 - S&P 500    
@@ -48,5 +48,5 @@ Capitalization Weighted Index
 - FTSE 100 Index  
 - And more. View them [here - Wikipedia](https://en.wikipedia.org/wiki/Capitalization-weighted_index)  
 
-Calculation:  
-[Investopedia](https://www.investopedia.com/terms/c/capitalizationweightedindex.asp)
+Reference:  
+[Investopedia - Capitalization Weighted Indexes](https://www.investopedia.com/terms/c/capitalizationweightedindex.asp)
