@@ -46,6 +46,6 @@ Capitalization Weighted Index
 - Nasdaq Composite  
 - NYSE Composite  
 - FTSE 100 Index  
-- And more. View them [here - Wikipedia](https://en.wikipedia.org/wiki/Capitalization-weighted_index)  
+- And more. [View them here](https://en.wikipedia.org/wiki/Capitalization-weighted_index)  
 
 Reference: [Investopedia - Capitalization Weighted Indexes](https://www.investopedia.com/terms/c/capitalizationweightedindex.asp)
