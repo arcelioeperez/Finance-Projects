@@ -7,6 +7,10 @@ a company (corporate) or government (government, municipal, agency).
 - Inversely correlated with interest rates:  
   - Rates **up** - Bond prices **down**  
   - Rates **down** - Bond prices **up**   
+- Bond Prices vs. Stocks:  
+  - Weak Economy: Bond prices **up** (investors move to more conservative options --> yields drop, money less expensive) - Stocks **down**  
+  - Strong Economy: Bond prices **down** (investors sell bonds --> yields increase, money more
+	expensive) - Stocks **up**  
 
 **Types:**   
 - Government Bonds: Treasury Bonds, US: TBills, TNotes, and TBonds  
