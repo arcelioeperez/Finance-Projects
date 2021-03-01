@@ -11,15 +11,15 @@
 - Agency Bonds: Fannie Mae and Freddie Mac  
 
 **Characteristics:**  
-Face Value: money amount the bond will be worth at maturity.  
-Coupon Rate: rate of interest the bond issuer will pay at a discount.  
+*Face Value:* money amount the bond will be worth at maturity.  
+*Coupon Rate:* rate of interest the bond issuer will pay at a discount.  
 - Example:  
   - Coupon Rate 8% --> 8% * 1,000.00 = $80 every year  
 
-Coupond Date: dates the bond issuer will make interest payments.  
-Maturity Date: date the bond will mature and the bond issuer will pay the
+*Coupond Date:* dates the bond issuer will make interest payments.  
+*Maturity Date:* date the bond will mature and the bond issuer will pay the
 face value of the bond.  
-Issue Price: the price that the bond issuer originally sells the bonds.  
+*Issue Price:* the price that the bond issuer originally sells the bonds.  
 
 Reference and citation:  
 [Bonds - Investopedia](https://www.investopedia.com/terms/b/bond.asp)  
