@@ -31,8 +31,10 @@ a company (corporate) or government (government, municipal, agency).
 *Coupond Date:* dates the bond issuer will make interest payments.  
 *Maturity Date:* date the bond will mature and the bond issuer will pay the
 face value of the bond.  
-*Issue Price:* the price that the bond issuer originally sells the bonds.  
----------------------------------------------------------------------------------
+*Issue Price:* the price that the bond issuer originally sells the bonds. 
+
+---------------------------------------------------------------------------------  
+
 **References and citation:**  
 
 **Understanding Bond Quotes** -- [New York Fed](https://www.newyorkfed.org/aboutthefed/fedpoint/fed07.html)    
