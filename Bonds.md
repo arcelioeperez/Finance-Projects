@@ -15,6 +15,7 @@ Face Value: money amount the bond will be worth at maturity.
 Coupon Rate: rate of interest the bond issuer will pay at a discount.  
 - Example:  
   - Coupon Rate 8% --> 8% * 1,000.00 = $80 every year  
+
 Coupond Date: dates the bond issuer will make interest payments.  
 Maturity Date: date the bond will mature and the bond issuer will pay the
 face value of the bond.  
