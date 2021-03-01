@@ -33,7 +33,12 @@ a company (corporate) or government (government, municipal, agency).
 face value of the bond.  
 *Issue Price:* the price that the bond issuer originally sells the bonds.  
 
-**Understanding Bond Quotes** -- [New York Fed](https://www.newyorkfed.org/aboutthefed/fedpoint/fed07.html)  
+**References and citation:**  
 
-Reference and citation:  
-[Bonds - Investopedia](https://www.investopedia.com/terms/b/bond.asp)  
+**Understanding Bond Quotes** -- [New York Fed](https://www.newyorkfed.org/aboutthefed/fedpoint/fed07.html)    
+
+**CFI Information** -- [CFI](https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/bonds/)    
+
+**Reading Yield Curves** -- [FINRA](https://www.finra.org/investors/learn-to-invest/types-investments/bonds/bond-yield-and-return)    
+
+**Bonds** -- [Bonds - Investopedia](https://www.investopedia.com/terms/b/bond.asp)    
