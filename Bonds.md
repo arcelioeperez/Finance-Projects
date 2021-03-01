@@ -1,5 +1,12 @@
 # What are bonds?  
 
+Fixed income financial instrument. It is a loan that an investor makes to
+a company (corporate) or government (government, municipal, agency).  
+
+**Correlations:**  
+- Inversely correlated with interest rates. Rates **up** - Bond prices
+  **down**. Rates **down** - Bond prices **up.**    
+
 **Types:**   
 - Government Bonds: Treasury Bonds, US: TBills, TNotes, and TBonds  
   - T Bills: time <= 1 year  
